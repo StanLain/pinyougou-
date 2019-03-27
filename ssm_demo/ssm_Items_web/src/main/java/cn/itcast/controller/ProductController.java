@@ -2,9 +2,11 @@ package cn.itcast.controller;
 
 import cn.itcast.pojo.Product;
 import cn.itcast.service.ProductService;
+import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -16,9 +18,10 @@ public class ProductController {
     private ProductService productService;
 
     @RequestMapping("/findAll.do")
-    public ModelAndView findAll() throws Exception{
-        List<Product> all = productService.findAll();
-        return new ModelAndView("product-list","productList",all);
+    public ModelAndView findAll(@RequestParam(name="page",required = true,defaultValue = "1") int page,@RequestParam(name = "pageSize",defaultValue = "3")int  pageSize) throws Exception{
+        List<Product> all = productService.findAll(page,pageSize);
+        PageInfo pageInfo = new PageInfo(all);
+        return new ModelAndView("product-list","pageInfo",pageInfo);
     }
 
     @RequestMapping("/save.do")

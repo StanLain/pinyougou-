@@ -3,6 +3,7 @@ package cn.itcast.service.imp;
 import cn.itcast.mapper.ProductMapper;
 import cn.itcast.pojo.Product;
 import cn.itcast.service.ProductService;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +13,8 @@ public class ProductServiceImp implements ProductService {
     @Autowired
     private ProductMapper productMapper;
 
-    public List<Product> findAll() throws Exception {
+    public List<Product> findAll(int page,int pageSize) throws Exception {
+        PageHelper.startPage(page,pageSize);
         return  productMapper.findAll();
     }
 

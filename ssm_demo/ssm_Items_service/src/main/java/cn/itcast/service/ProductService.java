@@ -12,7 +12,7 @@ public interface ProductService {
      * @return
      * @throws Exception
      */
-    List<Product> findAll() throws Exception;
+    List<Product> findAll(int page,int pageSize) throws Exception;
 
     /**
      * 添加一条商品信息

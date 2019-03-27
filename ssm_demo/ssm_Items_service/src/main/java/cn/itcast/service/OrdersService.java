@@ -9,5 +9,5 @@ public interface OrdersService {
      * 查询所有订单信息
      * @return
      */
-    List<Orders> findAll() throws Exception;
+    List<Orders> findAll(int page,int pageSize) throws Exception;
 }
