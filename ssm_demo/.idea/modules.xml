@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ssm_Items_mapper/ssm_Items_mapper.iml" filepath="$PROJECT_DIR$/ssm_Items_mapper/ssm_Items_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_Items_service/ssm_Items_service.iml" filepath="$PROJECT_DIR$/ssm_Items_service/ssm_Items_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_Items_web/ssm_Items_web.iml" filepath="$PROJECT_DIR$/ssm_Items_web/ssm_Items_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_commons/ssm_commons.iml" filepath="$PROJECT_DIR$/ssm_commons/ssm_commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm_demo.iml" filepath="$PROJECT_DIR$/ssm_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmpojo/ssmpojo.iml" filepath="$PROJECT_DIR$/ssmpojo/ssmpojo.iml" />
+    </modules>
+  </component>
+</project>
