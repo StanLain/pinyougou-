@@ -19,4 +19,10 @@ public interface ProductMapper {
      * @throws Exception
      */
     void saveOne(Product product) throws Exception;
+
+    /**
+     * 通过产品的id  获取产品信息=
+     * @throws Exception
+     */
+    void findById(String pid) throws Exception;
 }

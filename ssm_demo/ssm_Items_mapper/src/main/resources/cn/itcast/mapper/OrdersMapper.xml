@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mapper.OrdersMapper">
+    <resultMap id="ordersMap" type="orders">
+        <association property="product" javaType="product" column="productId" select="cn.itcast.mapper.ProductMapper.findById" />
+    </resultMap>
+    <select id="findAll" resultMap="ordersMap">
+        SELECT * from orders
+    </select>
+</mapper>
