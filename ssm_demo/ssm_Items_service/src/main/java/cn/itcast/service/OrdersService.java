@@ -10,4 +10,12 @@ public interface OrdersService {
      * @return
      */
     List<Orders> findAll(int page,int pageSize) throws Exception;
+
+    /**
+     * 根据orders的id查询orders,product，traveller，member详细信息
+     * @param id
+     * @return
+     * @throws Exception
+     */
+    Orders findById(String id) throws Exception;
 }

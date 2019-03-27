@@ -18,4 +18,8 @@ public class OrdersServiceImp implements OrdersService{
         PageHelper.startPage(page,pageSize);
         return ordersMapper.findAll();
     }
+
+    public Orders findById(String id) throws Exception {
+        return ordersMapper.findById(id);
+    }
 }

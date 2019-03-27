@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mapper.TravellerMapper">
+    <select id="findByOid" parameterType="string" resultType="traveller" >
+        SELECT * from traveller t,order_traveller ot WHERE ot.orderid=#{oid} and t.id=travellerid
+    </select>
+</mapper>

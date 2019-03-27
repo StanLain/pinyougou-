@@ -3,7 +3,6 @@ package cn.itcast.controller;
 import cn.itcast.pojo.Orders;
 import cn.itcast.service.OrdersService;
 import com.github.pagehelper.PageInfo;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,4 +26,9 @@ public class OrdersController {
         return new ModelAndView("orders-list","pageInfo",pageInfo);
     }
 
+    @RequestMapping("/findById.do")
+    public ModelAndView findByid(@RequestParam(name="id")String id)throws Exception{
+        Orders byId = ordersService.findById(id);
+        return new ModelAndView("orders-show","orders",byId);
+    }
 }

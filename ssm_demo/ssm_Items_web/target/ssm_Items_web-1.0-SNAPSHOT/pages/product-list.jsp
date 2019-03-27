@@ -319,7 +319,7 @@
 					<div class="box-footer">
 						<div class="pull-left">
 							<div class="form-group form-inline">
-								总共${pageInfo.pages} 页，共${pageInfo.total} 条数据。 每页 <select class="form-control" onchange="changePageSize()" id="changePageSize" value="${pageInfo.pageSize}">
+								总共${pageInfo.pages} 页，共${pageInfo.total} 条数据。 每页 <select class="form-control" onchange="changePageSize()" id="changePageSize" >
 									<option>1</option>
 									<option>2</option>
 									<option>3</option>

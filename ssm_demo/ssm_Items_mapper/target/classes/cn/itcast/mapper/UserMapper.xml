@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mapper.UserMapper">
+    <resultMap id="UserInfoMap" type="userInfo">
+        <id property="id" column="id"/>
+        <collection property="roles" ofType="role" column="id" select="cn.itcast.mapper.RoleMapper.findByUid"/>
+    </resultMap>
+    <select id="findByUsername" parameterType="string" resultMap="UserInfoMap">
+        SELECT * from users where username=#{username}
+    </select>
+
+    <select id="findAll" resultType="userInfo">
+        SELECT * from users
+    </select>
+
+    <insert id="saveAll" parameterType="userInfo">
+        INSERT INTO users (id,email,username,PASSWORD,phoneNum,STATUS ) VALUES (#{id},#{email},#{username},#{password},#{phoneNum},#{status})
+    </insert>
+
+</mapper>

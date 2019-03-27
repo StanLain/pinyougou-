@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mapper.RoleMapper">
+    <select id="findByUid" parameterType="string" resultType="role">
+        SELECT * from users_role ur, role r where ur.userId=#{uid} and ur.roleId=r.id
+    </select>
+</mapper>

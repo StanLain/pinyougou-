@@ -11,4 +11,12 @@ public interface OrdersMapper {
      * @return
      */
     List<Orders> findAll() throws Exception;
+
+    /**
+     * 根据订单id查询 orders,product，traveller，member详细信息
+     * @param id
+     * @return
+     * @throws Exception
+     */
+    Orders findById(String id) throws Exception;
 }
