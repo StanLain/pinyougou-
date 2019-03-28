@@ -19,4 +19,7 @@
         INSERT INTO users (id,email,username,PASSWORD,phoneNum,STATUS ) VALUES (#{id},#{email},#{username},#{password},#{phoneNum},#{status})
     </insert>
 
+    <select id="findById" parameterType="string" resultMap="UserInfoMap">
+        SELECT * from users where id=#{id}
+    </select>
 </mapper>

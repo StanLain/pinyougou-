@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.itcast.mapper.PermissionMapper">
+    <select id="findByRid" parameterType="string" resultType="permission">
+        SELECT * from role_permission rp, permission p where rp.roleId=#{rid} and rp.permissionId=p.id
+    </select>
+</mapper>

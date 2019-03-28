@@ -4,6 +4,7 @@ import cn.itcast.mapper.UserMapper;
 import cn.itcast.pojo.Role;
 import cn.itcast.pojo.UserInfo;
 import cn.itcast.service.UserService;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
@@ -44,7 +45,8 @@ public class UserServiceImp implements UserService {
         return simpleGrantedAuthorities;
     }
 
-    public List<UserInfo> findAll() throws Exception {
+    public List<UserInfo> findAll(int page,int pageSize) throws Exception {
+        PageHelper.startPage(page,pageSize);
         return userMapper.findAll();
     }
 
@@ -54,5 +56,9 @@ public class UserServiceImp implements UserService {
         userInfo.setId(string);
         userInfo.setPassword(bCryptPasswordEncoder.encode(userInfo.getPassword()));
        userMapper.saveAll(userInfo);
+    }
+
+    public UserInfo findById(String id) throws Exception {
+        return  userMapper.findById(id);
     }
 }

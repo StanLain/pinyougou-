@@ -6,68 +6,34 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/UserServiceImp.java" line="20" />
+    <bookmark url="file://$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/UserServiceImp.java" line="21" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6095716a-6ad1-4678-bc7a-291d8519b93a" name="Default" comment="ssm整合项目 完成商品查询和商品添加">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/MemberMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/RoleMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/TravellerMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/UserMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/MemberMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/RoleMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/TravellerMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/UserMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/UserServiceImp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_service/src/test/java/test/TestDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/resource/oracle.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/resource/spring-security.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/failer.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/orders-show.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-add.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-show.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Permission.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/UserInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/PermissionMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/PermissionMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/role-add.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/role-list.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/ItemsMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/OrdersMapper.java" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/OrdersMapper.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/ItemsMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/OrdersMapper.xml" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/OrdersMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/target/classes/cn/itcast/mapper/ItemsMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/target/classes/cn/itcast/mapper/ItemsMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/ItemsService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/OrdersService.java" afterPath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/OrdersService.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/ItemsServiceImp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/OrdersServiceImp.java" afterPath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/OrdersServiceImp.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_service/target/classes/cn/itcast/service/ItemsService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_service/target/classes/cn/itcast/service/imp/ItemsServiceImp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/ItemsController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/OrdersController.java" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/OrdersController.java" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/src/main/resource/druid.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/resource/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/WEB-INF/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/resource/springmvc-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/ssm_Items_web/target/classes/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/classes/cn/itcast/controller/ItemsController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/classes/druid.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/classes/springmvc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/classes/cn/itcast/controller/ItemsController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/classes/druid.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/lib/ssm-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/lib/ssm-pojo-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/UserMapper.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/RoleMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/target/classes/cn/itcast/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/ssm_Items_mapper/target/classes/cn/itcast/mapper/RoleMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/target/classes/cn/itcast/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/ssm_Items_mapper/target/classes/cn/itcast/mapper/UserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_mapper/target/classes/cn/itcast/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/ssm_Items_mapper/target/classes/cn/itcast/mapper/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/UserService.java" afterPath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/UserServiceImp.java" afterPath="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/UserServiceImp.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_service/target/classes/cn/itcast/service/UserService.class" afterPath="$PROJECT_DIR$/ssm_Items_service/target/classes/cn/itcast/service/UserService.class" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_service/target/classes/cn/itcast/service/imp/UserServiceImp.class" afterPath="$PROJECT_DIR$/ssm_Items_service/target/classes/cn/itcast/service/imp/UserServiceImp.class" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/UserController.java" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/aside.jsp" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/aside.jsp" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-list.jsp" afterPath="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/classes/cn/itcast/controller/UserController.class" afterPath="$PROJECT_DIR$/ssm_Items_web/target/classes/cn/itcast/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/classes/cn/itcast/controller/UserController.class" afterPath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/classes/cn/itcast/controller/UserController.class" />
       <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_Items_mapper-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_Items_mapper-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_Items_service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/lib/ssm_Items_service-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/pages/product-list.jsp" afterPath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/pages/product-list.jsp" />
-      <change beforePath="$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Items.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Traveller.java" afterPath="$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Traveller.java" />
-      <change beforePath="$PROJECT_DIR$/ssmpojo/target/classes/cn/itcast/pojo/Items.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/pages/aside.jsp" afterPath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/pages/aside.jsp" />
+      <change beforePath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/pages/user-list.jsp" afterPath="$PROJECT_DIR$/ssm_Items_web/target/ssm_Items_web-1.0-SNAPSHOT/pages/user-list.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,31 +66,60 @@
       <file leaf-file-name="UserServiceImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/UserServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="365">
+              <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
               <folding>
-                <element signature="e#1559#1583#0" expanded="true" />
+                <element signature="e#1600#1624#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aside.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/aside.jsp">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+            <state relative-caret-position="210">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+              <folding>
+                <marker date="1553697431951" expanded="true" signature="518:564" ph="SELECT * fro... users" />
+                <marker date="1553697431951" expanded="true" signature="636:655" ph="SELECT * fro... users" />
+                <marker date="1553697431951" expanded="true" signature="730:863" ph="INSERT INTO users... " />
+                <marker date="1553697431951" expanded="true" signature="961:995" ph="SELECT * fro... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/RoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1553698436987" expanded="true" signature="481:558" ph="SELECT * fro... users_role" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_Items_service/src/test/java/test/TestDemo.java">
+      <file leaf-file-name="PermissionMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/PermissionMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <marker date="1553696199638" expanded="true" signature="301:395" ph="SELECT * fro... role_permission" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,8 +127,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="37" column="58" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/UserMapper.java">
+      <file leaf-file-name="PermissionMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/PermissionMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,55 +148,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/UserMapper.xml">
+      <file leaf-file-name="user-show.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-show.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <marker date="1553692242457" expanded="true" signature="518:564" ph="SELECT * fro... users" />
-                <marker date="1553692242457" expanded="true" signature="636:655" ph="SELECT * fro... users" />
-                <marker date="1553692242457" expanded="true" signature="730:863" ph="INSERT INTO users... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/UserInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/resource/applicationContext.xml">
+      <file leaf-file-name="role-add.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/role-add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="-1350">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_Items_service/src/main/resources/spring/applicationContext-service.xml">
+      <file leaf-file-name="user-list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-mapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/spring/applicationContext-mapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            <state relative-caret-position="344">
+              <caret line="156" column="136" lean-forward="false" selection-start-line="156" selection-start-column="136" selection-end-line="156" selection-end-column="136" />
               <folding />
             </state>
           </provider>
@@ -230,10 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/ItemsMapper.java" />
-        <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/oracle.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ssm_commons/src/main/java/cn/itcast/utils/DateUtils.java" />
         <option value="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Product.java" />
         <option value="$PROJECT_DIR$/ssm_commons/src/main/java/cn/itcast/utils/Parse.java" />
@@ -245,7 +212,6 @@
         <option value="$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Member.java" />
         <option value="$PROJECT_DIR$/ssm_Items_web/src/main/resource/applicationContext.xml" />
         <option value="$PROJECT_DIR$/ssm_Items_web/src/main/resource/springmvc.xml" />
-        <option value="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/aside.jsp" />
         <option value="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/ProductService.java" />
         <option value="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/ProductServiceImp.java" />
         <option value="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/ProductController.java" />
@@ -270,17 +236,22 @@
         <option value="$PROJECT_DIR$/ssm_Items_service/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/WEB-INF/springmvc-servlet.xml" />
         <option value="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/OrdersController.java" />
-        <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/RoleMapper.xml" />
         <option value="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/ssm_Items_web/src/main/resource/spring-security.xml" />
         <option value="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ssm_Items_service/src/test/java/test/Test.java" />
-        <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/UserService.java" />
         <option value="$PROJECT_DIR$/ssm_Items_service/src/test/java/test/TestDemo.java" />
+        <option value="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/aside.jsp" />
+        <option value="$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-list.jsp" />
+        <option value="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/Permission.java" />
+        <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/PermissionMapper.java" />
+        <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/PermissionMapper.xml" />
         <option value="$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/UserServiceImp.java" />
-        <option value="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/RoleMapper.xml" />
       </list>
     </option>
   </component>
@@ -1056,7 +1027,7 @@
       <workItem from="1553560090346" duration="5030000" />
       <workItem from="1553597409634" duration="1223000" />
       <workItem from="1553598785120" duration="7816000" />
-      <workItem from="1553646316413" duration="34584000" />
+      <workItem from="1553646316413" duration="41036000" />
     </task>
     <servers />
   </component>
@@ -1072,7 +1043,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67489000" />
+    <option name="totallyTimeSpent" value="73941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -1095,7 +1066,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33372092" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22371244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1127,46 +1098,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/MemberMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/product-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="149" column="30" lean-forward="false" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/product-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="290" column="62" lean-forward="true" selection-start-line="290" selection-start-column="62" selection-end-line="290" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/orders-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="258" column="49" lean-forward="true" selection-start-line="258" selection-start-column="49" selection-end-line="258" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/OrdersMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/TravellerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1180,41 +1111,6 @@
         <state relative-caret-position="90">
           <caret line="174" column="64" lean-forward="true" selection-start-line="174" selection-start-column="64" selection-end-line="174" selection-end-column="64" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding>
-            <element signature="e#231#232#0" expanded="false" />
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#292#293#0" expanded="false" />
-            <element signature="e#320#321#0" expanded="false" />
-            <element signature="e#361#362#0" expanded="false" />
-            <element signature="e#398#399#0" expanded="false" />
-            <element signature="e#458#459#0" expanded="false" />
-            <element signature="e#510#511#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#566#567#0" expanded="false" />
-            <element signature="e#604#605#0" expanded="false" />
-            <element signature="e#634#635#0" expanded="false" />
-            <element signature="e#670#671#0" expanded="false" />
-            <element signature="e#698#699#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#778#779#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/TravellerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="54" />
-          <folding>
-            <marker date="1553668392975" expanded="true" signature="300:389" ph="SELECT * fro... traveller" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,14 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/OrdersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1289,16 +1177,6 @@
         <state relative-caret-position="150">
           <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <marker date="1553684349100" expanded="true" signature="289:366" ph="SELECT * fro... users_role" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,14 +1270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Traveller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1455,37 +1325,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-show.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="147" column="64" lean-forward="false" selection-start-line="147" selection-start-column="56" selection-end-line="147" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="93" column="66" lean-forward="true" selection-start-line="93" selection-start-column="66" selection-end-line="93" selection-end-column="73" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1505,16 +1349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_Items_service/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -1531,51 +1365,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/UserServiceImp.java">
+    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding>
-            <element signature="e#1559#1583#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="340" column="33" lean-forward="true" selection-start-line="332" selection-start-column="28" selection-end-line="340" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/aside.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+        <state relative-caret-position="210">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/orders-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="-5363">
+          <caret line="280" column="58" lean-forward="false" selection-start-line="280" selection-start-column="58" selection-end-line="280" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/TravellerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1553668392975" expanded="true" signature="300:389" ph="SELECT * fro... traveller" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_service/src/main/java/cn/itcast/service/imp/UserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding>
+            <element signature="e#1600#1624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/java/cn/itcast/mapper/PermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/PermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1553696199638" expanded="true" signature="301:395" ph="SELECT * fro... role_permission" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding>
-            <marker date="1553692242457" expanded="true" signature="518:564" ph="SELECT * fro... users" />
-            <marker date="1553692242457" expanded="true" signature="636:655" ph="SELECT * fro... users" />
-            <marker date="1553692242457" expanded="true" signature="730:863" ph="INSERT INTO users... " />
+            <marker date="1553697431951" expanded="true" signature="518:564" ph="SELECT * fro... users" />
+            <marker date="1553697431951" expanded="true" signature="636:655" ph="SELECT * fro... users" />
+            <marker date="1553697431951" expanded="true" signature="730:863" ph="INSERT INTO users... " />
+            <marker date="1553697431951" expanded="true" signature="961:995" ph="SELECT * fro... users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmpojo/src/main/java/cn/itcast/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_mapper/src/main/resources/cn/itcast/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1553698436987" expanded="true" signature="481:558" ph="SELECT * fro... users_role" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/java/cn/itcast/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="37" column="58" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="156" column="136" lean-forward="false" selection-start-line="156" selection-start-column="136" selection-end-line="156" selection-end-column="136" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/user-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_Items_web/src/main/webapp/pages/role-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

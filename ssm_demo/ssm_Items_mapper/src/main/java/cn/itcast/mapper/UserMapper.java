@@ -24,4 +24,12 @@ public interface UserMapper {
      * @throws Exception
      */
     void saveAll(UserInfo userInfo) throws Exception;
+
+    /**
+     * 查询用户详情（角色，权限）
+     * @param id
+     * @return
+     * @throws Exception
+     */
+    UserInfo findById(String id) throws Exception;
 }
