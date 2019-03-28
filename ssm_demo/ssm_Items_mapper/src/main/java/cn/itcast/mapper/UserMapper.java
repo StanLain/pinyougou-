@@ -32,4 +32,12 @@ public interface UserMapper {
      * @throws Exception
      */
     UserInfo findById(String id) throws Exception;
+
+    /**
+     * 通过角色id 查询所有包含此角色的用户
+     * @param id
+     * @return
+     * @throws Exception
+     */
+    UserInfo findByRid(String id) throws Exception;
 }

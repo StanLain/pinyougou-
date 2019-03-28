@@ -3,7 +3,26 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="cn.itcast.mapper.PermissionMapper">
+    <resultMap id="PermissionMap" type="permission">
+        <id property="id" column="id"/>
+        <collection property="roles" column="id" ofType="role" select="cn.itcast.mapper.RoleMapper.findByPid"/>
+    </resultMap>
+
+
+
     <select id="findByRid" parameterType="string" resultType="permission">
         SELECT * from role_permission rp, permission p where rp.roleId=#{rid} and rp.permissionId=p.id
+    </select>
+
+    <select id="findAll" resultType="permission">
+        SELECT * FROM permission
+    </select>
+
+    <insert id="saveOne" parameterType="permission">
+        INSERT into permission VALUES (#{id},#{permissionName},#{url})
+    </insert>
+
+    <select id="findById" parameterType="string" resultMap="PermissionMap">
+        SELECT * FROM permission WHERE id=#{id}
     </select>
 </mapper>

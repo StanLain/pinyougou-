@@ -79,7 +79,7 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 			<h1>
-				用户管理 <small>全部用户</small>
+				角色管理 <small>全部角色</small>
 			</h1>
 			<ol class="breadcrumb">
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
@@ -87,7 +87,7 @@
 				<li><a
 					href="${pageContext.request.contextPath}/user/findAll.do">用户管理</a></li>
 
-				<li class="active">全部用户</li>
+				<li class="active">全部角色</li>
 			</ol>
 			</section>
 			<!-- 内容头部 /-->
@@ -139,23 +139,27 @@
 								</thead>
 
 								<tr data-tt-id="0">
-									<td colspan="2">${user.username}</td>
+									<td colspan="2">权限</td>
 								</tr>
-
 								<tbody>
-									<c:forEach items="${user.roles}" var="role" varStatus="vs">
-										<tr data-tt-id="${vs.index+1}" data-tt-parent-id="0">
-											<td>${role.roleName }</td>
-											<td>${role.roleDesc }</td>
+									<c:forEach items="${role.permissions}" var="permission" >
+										<tr data-tt-id="1" data-tt-parent-id="0">
+											<td>${permission.permissionName}</td>
+											<td>${permission.url }</td>
 										</tr>
-										<c:forEach items="${role.permissions}" var="permission">
-											<tr data-tt-id="1-1" data-tt-parent-id="${vs.index+1}">
-												<td>${permission.permissionName}</td>
-												<td>${permission.url}</td>
-											</tr>
-
-										</c:forEach>
 									</c:forEach>
+								</tbody>
+
+								<tr data-tt-id="1">
+									<td colspan="2">用户名</td>
+								</tr>
+								<tbody>
+								<c:forEach items="${role.userInfos}" var="userInfo" >
+									<tr data-tt-id="2" data-tt-parent-id="0">
+										<td>${userInfo.username}</td>
+										<td>状态:${userInfo.statusStr }</td>
+									</tr>
+								</c:forEach>
 								</tbody>
 							</table>
 						</div>

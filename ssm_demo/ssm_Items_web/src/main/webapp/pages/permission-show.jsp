@@ -79,15 +79,15 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 			<h1>
-				用户管理 <small>全部用户</small>
+				权限管理 <small>全部权限</small>
 			</h1>
 			<ol class="breadcrumb">
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
 				<li><a
-					href="${pageContext.request.contextPath}/user/findAll.do">用户管理</a></li>
+					href="${pageContext.request.contextPath}/user/findAll.do">权限管理</a></li>
 
-				<li class="active">全部用户</li>
+				<li class="active">全部权限</li>
 			</ol>
 			</section>
 			<!-- 内容头部 /-->
@@ -127,39 +127,38 @@
 						</div>
 						<!--工具栏/-->
 
-						<!--数据列表-->
+						<!--树表格-->
 						<div class="tab-pane" id="tab-treetable">
-							<table id="collapse-table"
-								class="table table-bordered table-hover dataTable">
+							<table id="collapse-table" class="table table-bordered table-hover dataTable">
 								<thead>
-									<tr>
-										<th>名称</th>
-										<th>描述</th>
-									</tr>
-								</thead>
+								<tr>
+									<th>名称</th>
+									<th>描述</th>
 
+								</tr>
+								</thead>
 								<tr data-tt-id="0">
-									<td colspan="2">${user.username}</td>
+									<td>${permission.permissionName}</td>
+									<td>${permission.url}</td>
 								</tr>
 
 								<tbody>
-									<c:forEach items="${user.roles}" var="role" varStatus="vs">
-										<tr data-tt-id="${vs.index+1}" data-tt-parent-id="0">
-											<td>${role.roleName }</td>
-											<td>${role.roleDesc }</td>
-										</tr>
-										<c:forEach items="${role.permissions}" var="permission">
-											<tr data-tt-id="1-1" data-tt-parent-id="${vs.index+1}">
-												<td>${permission.permissionName}</td>
-												<td>${permission.url}</td>
-											</tr>
-
-										</c:forEach>
-									</c:forEach>
+							<c:forEach items="${permission.roles}" var="role" varStatus="role_index">
+								<tr data-tt-id="${role_index.index+1}" data-tt-parent-id="0">
+									<td>${role.roleName}</td>
+									<td>${role.roleDesc}</td>
+								</tr>
+								<c:forEach items="${role.userInfos}" var="userInfo">
+									<tr data-tt-id="${role_index.index+1}-1" data-tt-parent-id="${role_index.index+1}">
+										<td>${userInfo.username}</td>
+										<td>${userInfo.statusStr}</td>
+									</tr>
+								</c:forEach>
+							</c:forEach>
 								</tbody>
 							</table>
 						</div>
-						<!--数据列表/-->
+						<!--树表格/-->
 
 					</div>
 					<!-- 数据表格 /-->

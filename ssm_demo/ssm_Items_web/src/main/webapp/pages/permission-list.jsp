@@ -79,7 +79,7 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 			<h1>
-				角色管理 <small>全部角色</small>
+				权限管理 <small>全部权限</small>
 			</h1>
 			<ol class="breadcrumb">
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
@@ -87,7 +87,7 @@
 				<li><a
 					href="${pageContext.request.contextPath}/role/findAll.do">角色管理</a></li>
 
-				<li class="active">全部角色</li>
+				<li class="active">全部权限</li>
 			</ol>
 			</section>
 			<!-- 内容头部 /-->
@@ -108,7 +108,7 @@
 							<div class="pull-left">
 								<div class="form-group form-inline">
 									<div class="btn-group">
-										<button type="button" class="btn btn-default" title="新建" onclick="location.href='${pageContext.request.contextPath}/pages/role-add.jsp'">
+										<button type="button" class="btn btn-default" title="新建" onclick="location.href='${pageContext.request.contextPath}/pages/permission-add.jsp'">
 											<i class="fa fa-file-o"></i> 新建
 										</button>
 										
@@ -136,21 +136,21 @@
 											id="selall" type="checkbox" class="icheckbox_square-blue">
 										</th>
 										<th class="sorting_asc">ID</th>
-										<th class="sorting_desc">角色名称</th>
+										<th class="sorting_desc">权限名称</th>
 										<th class="sorting_asc sorting_asc_disabled">描述</th>										
 										<th class="text-center">操作</th>
 									</tr>
 								</thead>
 								<tbody>
 
-									<c:forEach items="${pageInfo.list}" var="role">
+									<c:forEach items="${pageInfo.list}" var="permission">
 										<tr>
 											<td><input name="ids" type="checkbox"></td>
-											<td>${role.id }</td>
-											<td>${role.roleName }</td>
-											<td>${role.roleDesc }</td>																				
+											<td>${permission.id }</td>
+											<td>${permission.permissionName }</td>
+											<td>${permission.url }</td>
 											<td class="text-center">
-												<a href="${pageContext.request.contextPath}/role/findById.do?id=${role.id}" class="btn bg-olive btn-xs">详情</a>
+												<a href="${pageContext.request.contextPath}/permission/findById.do?id=${permission.id}" class="btn bg-olive btn-xs">详情</a>
 												<a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${user.id}" class="btn bg-olive btn-xs">添加角色</a>
 											</td>
 										</tr>
@@ -191,13 +191,13 @@
 
 						<div class="box-tools pull-right">
 							<ul class="pagination">
-								<li><a href="${pageContext.request.contextPath}/role/findAll.do?page=1&pageSize=${pageInfo.pageSize}" aria-label="Previous">首页</a></li>
-								<li><a href="${pageContext.request.contextPath}/role/findAll.do?page=${pageInfo.prePage}&pageSize=${pageInfo.pageSize}">上一页</a></li>
+								<li><a href="${pageContext.request.contextPath}/permission/findAll.do?page=1&pageSize=${pageInfo.pageSize}" aria-label="Previous">首页</a></li>
+								<li><a href="${pageContext.request.contextPath}/permission/findAll.do?page=${pageInfo.prePage}&pageSize=${pageInfo.pageSize}">上一页</a></li>
 								<c:forEach begin="1" end="${pageInfo.pages}" var="pageNum">
-									<li><a href="${pageContext.request.contextPath}/role/findAll.do?page=${pageNum}&pageSize=${pageInfo.pageSize}">${pageNum}</a></li>
+									<li><a href="${pageContext.request.contextPath}/permission/findAll.do?page=${pageNum}&pageSize=${pageInfo.pageSize}">${pageNum}</a></li>
 								</c:forEach>
-								<li><a href="${pageContext.request.contextPath}/role/findAll.do?page=${pageInfo.nextPage}&pageSize=${pageInfo.pageSize}">下一页</a></li>
-								<li><a href="${pageContext.request.contextPath}/role/findAll.do?page=${pageInfo.pageSize}&pageSize=${pageInfo.pageSize}" aria-label="Next">尾页</a></li>
+								<li><a href="${pageContext.request.contextPath}/permission/findAll.do?page=${pageInfo.nextPage}&pageSize=${pageInfo.pageSize}">下一页</a></li>
+								<li><a href="${pageContext.request.contextPath}/permission/findAll.do?page=${pageInfo.pageSize}&pageSize=${pageInfo.pageSize}" aria-label="Next">尾页</a></li>
 							</ul>
 						</div>
 
@@ -279,7 +279,7 @@
                 var pageSize = $("#changePageSize").val();
 
                 //向服务器发送请求，改变没页显示条数
-                location.href = "${pageContext.request.contextPath}/role/findAll.do?page=1&pageSize="
+                location.href = "${pageContext.request.contextPath}/permission/findAll.do?page=1&pageSize="
                     + pageSize;
             }
             $(document).ready(function() {

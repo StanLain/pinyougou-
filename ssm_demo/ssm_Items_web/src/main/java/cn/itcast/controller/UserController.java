@@ -33,8 +33,6 @@ public class UserController {
     @RequestMapping("/findById.do")
     public ModelAndView findById(String id) throws Exception{
        UserInfo userInfo= userService.findById(id);
-        System.out.println(userInfo);
-        System.out.println(userInfo.getRoles().size());
        return new ModelAndView("user-show","user",userInfo);
     }
 }

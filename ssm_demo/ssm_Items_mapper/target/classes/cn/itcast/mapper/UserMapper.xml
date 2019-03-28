@@ -22,4 +22,8 @@
     <select id="findById" parameterType="string" resultMap="UserInfoMap">
         SELECT * from users where id=#{id}
     </select>
+
+    <select id="findByRid" parameterType="string" resultType="userInfo">
+        SELECT * from users_role ur ,users u where ur.roleid=#{id} and u.id=ur.userid
+    </select>
 </mapper>

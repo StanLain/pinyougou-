@@ -7,8 +7,34 @@
         <collection property="permissions" ofType="permission" column="id" select="cn.itcast.mapper.PermissionMapper.findByRid"/>
     </resultMap>
 
+    <resultMap id="roleMap2" type="role">
+        <id property="id" column="id"/>
+        <collection property="permissions" ofType="permission" column="id" select="cn.itcast.mapper.PermissionMapper.findByRid"/>
+        <collection property="userInfos" ofType="userInfo" column="id" select="cn.itcast.mapper.UserMapper.findByRid"/>
+     </resultMap>
+
+    <resultMap id="roleMap3" type="role">
+        <collection property="userInfos" ofType="userInfo" column="id" select="cn.itcast.mapper.UserMapper.findByRid"/>
+    </resultMap>
+
     <select id="findByUid" parameterType="string" resultMap="roleMap">
         SELECT * from users_role ur, role r where ur.userId=#{uid} and ur.roleId=r.id
     </select>
 
+    <select id="findAll"  resultType="role">
+        SELECT * from role
+    </select>
+
+    <select id="findById" parameterType="String" resultMap="roleMap2">
+        SELECT * from role where id=#{id}
+    </select>
+
+    <insert id="saveOne" parameterType="role" >
+        INSERT into role VALUES (#{id},#{roleName},#{roleDesc})
+    </insert>
+
+
+    <select id="findByPid" parameterType="string" resultMap="roleMap3">
+        SELECT * from role_permission rp,role r where rp.roleId=r.id and rp.permissionId=#{rid}
+    </select>
 </mapper>
